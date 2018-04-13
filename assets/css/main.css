@@ -56,6 +56,24 @@
 		box-sizing: border-box;
 	}
 
+	/* Youtube Reflexive */
+	.vid-container {
+	    position: relative;
+	    padding-bottom: 50%;
+	    padding-top: 35px; height: 0; overflow: hidden;
+	}
+
+	.vid-container iframe,
+	.vid-container object,
+	.vid-container embed {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+
+
 /* Grid */
 
 	.row {
@@ -1711,6 +1729,7 @@
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
 		margin: 0 0 1rem 0;
+
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1830,7 +1849,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		/* color: #212931; */
+		color: #1fb2eb;
 	}
 
 	blockquote {
